@@ -1,6 +1,15 @@
 # IBM Data Engineering Specialization – Portfolio Project  
 # 🌍 Countries GDP Web Scraping & Data Analysis
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-Web%20Scraping-green?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white)
+![Data Engineering](https://img.shields.io/badge/Data%20Engineering-Portfolio-blue?style=for-the-badge)
+![Web Scraping](https://img.shields.io/badge/Web%20Scraping-HTML%20Parsing-orange?style=for-the-badge)
+
+
 This project demonstrates the use of **web scraping techniques** to extract nominal GDP data from an archived Wikipedia webpage. The scraped data is cleaned, structured, transformed, and analyzed to identify the top 10 largest economies in the world. The main focus is on working directly with **raw HTML content**, extracting meaningful information, and converting it into a usable analytical dataset.
 
 ---
