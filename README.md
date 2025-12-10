@@ -1,89 +1,121 @@
-# 🌍 GDP Web Scraping & Data Analysis Project
+# IBM Data Engineering Specialization – Portfolio Project  
+# 🌍 Countries GDP Web Scraping & Data Analysis
 
-This project extracts, cleans, and analyzes global nominal GDP data from an archived Wikipedia source using Python. The workflow demonstrates practical skills in web scraping, data transformation, and analytical processing using Pandas, NumPy, and BeautifulSoup.
+This project demonstrates the use of **web scraping techniques** to extract nominal GDP data from an archived Wikipedia webpage. The scraped data is cleaned, structured, transformed, and analyzed to identify the top 10 largest economies in the world. The main focus is on working directly with **raw HTML content**, extracting meaningful information, and converting it into a usable analytical dataset.
 
 ---
 
 ## 📌 Overview
 
-The project focuses on:
+The project workflow includes:
 
-- Scraping GDP data from an HTML table  
-- Converting raw data into a structured DataFrame  
-- Cleaning and transforming GDP values  
-- Identifying the top 10 largest economies  
-- Adding analytical fields such as GDP Share (%), Ranking, and Normalized Score  
-- Exporting the processed dataset for further use  
+- Extracting GDP data from an HTML table using **manual web scraping**
+- Parsing and structuring HTML content into a Pandas DataFrame
+- Cleaning and converting GDP values from millions to billions
+- Selecting the **top 10 economies** based on nominal GDP
+- Engineering analytical fields:
+  - GDP Share (%)
+  - GDP Ranking
+  - Normalized GDP Score (0–1)
+- Exporting the final dataset for further analysis and use
 
-This provides a clear understanding of global economic distribution based on nominal GDP.
+---
+
+## 🧠 Skills Demonstrated
+
+- Web Scraping & HTML Parsing  
+- Data Cleaning and Transformation  
+- Exploratory Data Analysis  
+- Feature Engineering  
+- Tabular Data Analysis  
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **Python**
-- **BeautifulSoup (bs4)**
-- **Pandas**
-- **NumPy**
-- **Google Colab / Jupyter Notebook**
+- Python  
+- Google Colab / Jupyter Notebook  
+- Web Scraping Techniques  
 
 ---
 
-## 📂 Repository Contents
+## 📚 Libraries Used
 
-GDP-Web-Scraping-Project/
-│
-├── GDP_Web_Scraping_Project.ipynb # Main project notebook
-├── Largest_economies.csv # Final processed dataset
-├── web_scraping_results/ # Visual outputs of each step
-└── README.md # Project documentation
-
-yaml
-Copy code
+- **BeautifulSoup (bs4)** – HTML parsing and table extraction  
+- **urllib.request** – Fetching webpage content  
+- **Pandas** – Structuring and transforming tabular data  
+- **NumPy** – Mathematical operations and normalization  
 
 ---
 
 ## 🌐 Data Source
 
-Archived Wikipedia GDP Table:  
+Archived Wikipedia Nominal GDP Table:  
 https://web.archive.org/web/20230902185326/https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)
 
 ---
 
-## 📊 Final Output
+## 📊 Final Output Summary
 
-The final dataset includes:
+The final processed dataset contains:
 
 - Country  
 - GDP (Million USD)  
 - GDP (Billion USD)  
 - GDP Share (%)  
-- GDP Rank  
-- Normalized GDP Score  
+- Rank  
+- GDP Normalized Score  
 
-This provides a concise summary of the world’s leading economies and their relative contribution to global GDP.
+This dataset provides a clear comparative view of the economic standing of the top 10 largest economies.
+
+---
+
+## 🖼️ Results
+
+Below are visual snapshots of key stages from the analysis.  
+*(All images are stored inside the `web_scraping_results/` folder.)*
+
+### ✔ Extracting Nominal GDP Data  
+![Extracting GDP](web_scraping_results/Extracting_Nominal_GDP_Data.png)
+
+### ✔ Cleaning Data & Removing Aggregates  
+![Removing Aggregates](web_scraping_results/Removing_Aggregate_Rows.png)
+
+### ✔ Top 10 Largest Economies  
+![Top 10](web_scraping_results/Top_10_Largest_Economies.png)
+
+### ✔ Converting GDP to Billions  
+![GDP Billions](web_scraping_results/Converting_GDP_to_Billion_USD.png)
+
+### ✔ Adding GDP Share (%)  
+![GDP Share](web_scraping_results/Adding_GDP_Share.png)
+
+### ✔ Ranking the Economies  
+![Ranking](web_scraping_results/Adding_Ranking.png)
+
+### ✔ Normalized GDP Score  
+![Normalized Score](web_scraping_results/Adding_Normalized_Score.png)
 
 ---
 
 ## 📥 How to Use
 
-1. Open the notebook (`.ipynb`) in Google Colab or Jupyter.
-2. Run all cells to reproduce the scraping and analysis.
-3. View or download the processed dataset (`Largest_economies.csv`).
-4. Explore result visuals inside the `web_scraping_results` folder.
+1. Open the `.ipynb` notebook in Google Colab or Jupyter Notebook.  
+2. Run all cells to reproduce the scraping and analysis pipeline.  
+3. View or download the processed dataset (`Largest_economies.csv`).  
+4. Refer to the `web_scraping_results` folder for result images and outputs.
 
 ---
 
 ## 📎 Summary
 
-This project demonstrates:
+This project demonstrates an end-to-end data workflow involving:
 
-- Web scraping with Python  
-- Data cleaning and preprocessing  
-- Feature engineering for economic analysis  
-- Structured data export  
-- Practical data engineering workflow  
+- Web scraping from an online source  
+- Cleaning and transforming real-world economic data  
+- Engineering additional insights  
+- Exporting a structured and analytical dataset  
 
-It serves as a solid portfolio piece showcasing end-to-end data extraction and analysis capabilities.
+It serves as a professional portfolio example highlighting practical **web scraping**, **data preparation**, and **analytical** skills.
 
 ---
