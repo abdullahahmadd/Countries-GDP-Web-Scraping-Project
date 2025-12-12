@@ -13,15 +13,15 @@
 
 # 📑 Table of Contents
 
-1. [Overview](#overview)  
-2. [Skills Demonstrated](#skills-demonstrated)  
-3. [Tools & Technologies](#tools--technologies)  
-4. [Libraries Used](#libraries-used)  
-5. [Data Source](#data-source)  
-6. [Final Output Summary](#final-output-summary)  
-7. [Results](#results)  
-8. [How to Use](#how-to-use)  
-9. [Summary](#summary)  
+1. [Overview](#-overview)  
+2. [Skills Demonstrated](#-skills-demonstrated)  
+3. [Tools & Technologies](#-tools--technologies)  
+4. [Libraries Used](#-libraries-used)  
+5. [Data Source](#-data-source)  
+6. [Final Output Summary](#-final-output-summary)  
+7. [Results](#-results)  
+8. [How to Use](#-how-to-use)  
+9. [Summary](#-summary)  
 
 ---
 
