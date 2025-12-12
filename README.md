@@ -13,15 +13,15 @@
 
 # 📑 Table of Contents
 
-- [📌 Overview](#-overview)  
-- [🧠 Skills Demonstrated](#-skills-demonstrated)  
-- [🛠️ Tools & Technologies](#️-tools--technologies)  
-- [📚 Libraries Used](#-libraries-used)  
-- [🌐 Data Source](#-data-source)  
-- [📊 Final Output Summary](#-final-output-summary)  
-- [🖼️ Results](#️-results)  
-- [📥 How to Use](#-how-to-use)  
-- [📎 Summary](#-summary)  
+1. [Overview](#overview)  
+2. [Skills Demonstrated](#skills-demonstrated)  
+3. [Tools & Technologies](#tools--technologies)  
+4. [Libraries Used](#libraries-used)  
+5. [Data Source](#data-source)  
+6. [Final Output Summary](#final-output-summary)  
+7. [Results](#results)  
+8. [How to Use](#how-to-use)  
+9. [Summary](#summary)  
 
 ---
 
